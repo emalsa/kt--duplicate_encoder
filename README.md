@@ -9,3 +9,5 @@ Examples
 - "recede"   =>  "()()()"
 - "Success"  =>  ")())())"
 - "(( @"     =>  "))((" 
+
+https://www.codewars.com/kata/duplicate-encoder/train/python
