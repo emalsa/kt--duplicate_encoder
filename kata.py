@@ -10,7 +10,7 @@ def duplicate_encode(word):
     for char in word:
         char_count[char] = char_count.get(char, 0) + 1
 
-    # Iterate through the word and decide which parenthesis should be replaced
+    # Iterate through the word and decide which parenthesis have to be used
     for char in word:
         if char_count[char] > 1:
             char_list.append(char.replace(char, ')'))
